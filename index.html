@@ -9,11 +9,32 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- CSS file -->
   <link rel="stylesheet" href="./assets/style.css">
-  <title>Drink Water</title>
+  <title>Background Slider</title>
 </head>
 <body>
-  
-  
+  <div class="slider-container">
+    <div class="slide active"
+      style="background-image: url('./assets/images/dog.jpeg')">
+    <h3>page 1</h3>
+    </div>
+    <div class="slide"
+    style="background-image: url('./assets/images/dog.jpeg')">
+    <h3>page 2</h3>
+    </div>
+    <div class="slide"
+    style="background-image: url('./assets/images/dog.jpeg')">
+    <h3>page 3</h3>
+    </div>
+
+    <button class="arrow left-arrow" id="left">
+      <i class="fas fa-arrow-left"></i>
+    </button>
+
+    <button class="arrow right-arrow" id="left">
+      <i class="fas fa-arrow-right"></i>
+    </button>
+  </div>
+
 
   <!-- javascript file link -->
   <script src="./js/index.js"></script>
